@@ -6,11 +6,11 @@ import urllib.parse
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
 
-updater = Updater(token='5875098846:AAEJJsE24iKLC_Dk6H_Btd-gVRm_09UKi8k', use_context=True)
+updater = Updater(token='INSERT YOUR TOKEN HERE', use_context=True)
 
 dispatcher = updater.dispatcher
 
-admin_ids = ["453456091"]
+admin_ids = ["INSERT ADMINS ID HERE"]
 
 promo_codes = {}
 
